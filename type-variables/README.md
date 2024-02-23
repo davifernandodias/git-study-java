@@ -12,6 +12,10 @@ STRING tipoTexto;
 
 BIGDECIMAL tipoBigDecimal;
 
+DOUBLE tipoDouble;
+
+CHAR tipoChar;
+
 
 ### VARIABLES NOT MUTAVEL
 
