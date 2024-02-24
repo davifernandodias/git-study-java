@@ -15,6 +15,8 @@ public class Users {
         System.out.println("what sons is here? " + smartTV.sons);
         smartTV.toDecreaseSons();
         System.out.println("what sons is here? " + smartTV.sons);
+        smartTV.changeChannel(10);
+        System.out.println("what channel is here? " + smartTV.channel);
     }
 
     
