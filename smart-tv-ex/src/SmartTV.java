@@ -9,4 +9,10 @@ public class SmartTV {
     public void offTV(){
         on = false;
     }
+    public void increaseSons(){
+        sons++;
+    }
+    public void toDecreaseSons(){
+        sons--;
+    }
 }
