@@ -4,7 +4,7 @@ public class App {
         byte b = 10;
 
         
-        String result = a==b? "true": "false";
+        String result = a==10&&10==b? "true": "false";
         System.out.println(result); 
     }
 }
