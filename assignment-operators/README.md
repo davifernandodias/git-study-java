@@ -1,18 +1,25 @@
-## Getting Started
+# valores primitivos de operadores
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+- > `+ SOMA AND SUBTRAÇÃO -`
+- > `* MUTIPLICAÇÃO AND DIVISÃO /`
+- > `% MODULO DA DIVISÃO`
 
-## Folder Structure
+>TIPOS PRIMITIVOS BÁSICOS
 
-The workspace contains two folders by default, where:
+### CONCATENAÇÃO.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+>COMO FUNCIONA CONCATENAÇÃO COM TYPES DIFERENTES.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+# FIRSTCASE
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+- >`1+1+"1" = 21`
+- ENQUANTO O PROXIMO VALOR FOR NUMERO ELE AINDA ESTÁ SERVINDO
+COMO UMA FUNÇÃ DE SOMA.
 
-## Dependency Management
+- SWICH CASE QUANDO O ULTIMO VALOR FOR FORA DO VALOR NUMERO ELE APENAS ATRIBUI ESSA STRING NO VALOR FINAL. CONFORME EXEMPLO
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+# TWOCASE
+
+- >`1+"1"+1 = 111`
+- SENDO UM VALOR STRING NA SEGUNDA CASA DA SEQUÊNCIA O PROCESSO FAZ DE CONCATEÇÃO APÓS. CONFORME EXEMPLO
+
