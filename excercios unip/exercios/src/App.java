@@ -1,20 +1,17 @@
 import java.util.Scanner;
 public class App {
-    public static void main(String[] args) throws Exception {
-    Scanner sc = new Scanner(System.in);
-    System.out.println("informe final");
-    int n = sc.nextInt();
-    int a = 0,b=1;
-    System.out.print(a+" "+ b + " ");
-    for (int i = 2; i < n; i++){
-        int soma = a + b;
-        System.out.print(soma+ " ");
-        a = b;
-        b = soma;
 
-        
-
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int elem =3;
+        int ac =0;
+        System.out.println("informe numeros: ");
+        for (int x=0;x<elem;x++){
+            int numero = sc.nextInt();
+            if(numero%2==0){
+                ac +=numero;
+            }
+        }
+        System.out.print(":"+ac);
     }
-
-    }
-}
+} 
