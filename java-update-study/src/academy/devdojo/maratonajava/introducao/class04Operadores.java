@@ -19,5 +19,9 @@ public class class04Operadores{
         // and &&
         // or  ||
         // not !
+
+        int recebe = 0;
+        recebe++; // chama a variavel e depois adiciona mais um
+        recebe--; // chama a variavel e depois subtrai menos um
     }
 }
