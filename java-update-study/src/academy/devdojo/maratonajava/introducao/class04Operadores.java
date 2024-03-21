@@ -10,5 +10,14 @@ public class class04Operadores{
         System.out.println(resto);
 
         // < > <= >= == !=
+
+        boolean isDezMaiorQueVinte = 10 > 20;
+        boolean isDezMenorQueVinte = 10 < 20;
+        System.out.println(isDezMaiorQueVinte);
+        System.out.println(isDezMenorQueVinte);
+
+        // and &&
+        // or  ||
+        // not !
     }
 }
