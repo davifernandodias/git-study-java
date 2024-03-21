@@ -15,6 +15,7 @@ public class class02 {
         boolean verdade = true;
         boolean falso = false;
         char caractere = 'd';
+        System.out.println(age+numberLong+numberFloat+salary+age+ageByte+ageShot+""+verdade+falso+caractere);
     }
     
     

@@ -5,5 +5,10 @@ public class class04Operadores{
         int number02 = 20;
         double result = number01 /(double) number02; // int int retorna int
         System.err.println(result);
+        // % resto da divisão
+        int resto = 11%2;
+        System.out.println(resto);
+
+        // < > <= >= == !=
     }
 }
