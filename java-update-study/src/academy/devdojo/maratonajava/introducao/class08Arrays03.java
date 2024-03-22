@@ -10,5 +10,9 @@ public class class08Arrays03 {
         }
         System.out.println(numbers);
         System.out.println(numbers3);
+        System.out.println("======================");
+        for(int num:numbers3){
+            System.out.println(num);
+        }
     }
 }
