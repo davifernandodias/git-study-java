@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class class06SwitchCase {
     public static void main(String[] args) {
         // imprimir dia da semana
+        @SuppressWarnings("resource")
         Scanner sc = new Scanner(System.in);
         byte day = sc.nextByte();
         // char, int, byte, short, enum, String
