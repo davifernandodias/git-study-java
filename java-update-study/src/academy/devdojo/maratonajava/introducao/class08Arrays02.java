@@ -9,9 +9,13 @@ public class class08Arrays02 {
      * - String null
      */
     public static void main(String[] args) {
-        int[] ages = new int[3];
-        System.out.println(ages[0]);
-        System.out.println(ages[1]);
-        System.out.println(ages[2]);
+        String[] names = new String[3];
+        names[0] = "davis";
+        names[1] = "fernando";
+        names[2] = "dias";
+        
+        for (int i=0;i<names.length;i++){
+            System.out.print(names[i]+" ");
+        }
     }
 }
